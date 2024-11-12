@@ -102,5 +102,49 @@ NOT  A B
      0 1 
   """   
 #4<6<9 Bassically if we didn't mentioned the and or gate it will take it as AND
-      
-  
+
+# This is the Python marathon second part to learn from scratch
+#Date 10-11-2024
+''' The ID value will change once it reach the number of 256. it comes under memory management
+why does it behaving like this?
+Datatype memory management 
+each datatypes will make a mynute change in in memory management datatypes like (int.flat,string,lists,tuple,dictnory,set)
+ I - Immutable  (Data Types in python where the value assigned to a variable cannot be changed) if you cannot modify the data stored in the variable without modifying the 
+ address it means the data type is imutable
+ 
+ M - Mutable (Data types in python where the value assigned to a variable can be changed ) 
+ if you can modify the data stored in the variable without modifying the address it means the datatype is mutable
+ for example int is immutable and list is mutable
+
+'''
+#LIST (mutable)
+a= [1,2,3,4]
+id(a)
+a.append(5)
+id(a)
+#int (immutable)
+b=10
+id(b)
+b=b+1
+id(b)
+#Flot(immutable)
+a =256.0
+b= 256.0
+id(a)
+126344921958544
+id(b)
+126344921958736
+
+
+"""
+Data Types: 
+Integer(1,2,3,5,19)
+Float(1.0,0.12,2.15)
+Boolean(True, False)
+Strings("anything inside the double coutes are string")
+      "this is single line  string" """
+#' this is also string with single coutes'
+      """ this is multiline string""" 
+#if we assinged this multi line comments to an variable it will not considered as comment
+  """
+   
