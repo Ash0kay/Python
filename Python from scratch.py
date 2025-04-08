@@ -154,10 +154,17 @@ id(a)
 id(b)
 
 """
-Data Types: 
-Integer(1,2,3,5,19)
-Float(1.0,0.12,2.15)
-Boolean(True, False)
+Data Types: (1-4 core or premitive data types, 5-8 are collections)
+1. Integer(1,2,3,5,19)
+2. Float(1.0,0.12,2.15)
+3. Boolean(True, False)
+4. String
+5. Lists
+6. Tuple
+7.Dictonary
+8. Set
+
+
 Strings("anything inside the double coutes are string")
       "this is single line  string" """
 #' this is also string with single coutes'
@@ -182,6 +189,14 @@ name= "batman"
 msg = f"bruce wyane is {name}"
 msg
 It will print "bruce wyane is batman" that f is formating and it will be avaiblae in only python 3.6 are above
+ """"
+ 
+ DATE: 08-04-2025
+ How does a operater works on string
+string concadination
+ a= "hello"
+ b= "world"
+ c= a+b
  
 """
 
