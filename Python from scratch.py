@@ -116,6 +116,13 @@ each datatypes will make a mynute change in in memory management datatypes like 
  if you can modify the data stored in the variable without modifying the address it means the datatype is mutable
  for example int is immutable and list is mutable
 
+_____________________________________________________________________________________________________________________________
+   Int         | Float          | String                               | Lists          | Tuple | Dict | set|
+   A:I D:I =I  |  A:I, D:I =I   | A:M(for Data) A:I(for Idns), D:I =I  | A:I D:M = M    |       |      |    |
+
+
+Python memory management has static identifier for 256 numbers it will apply to alphabuts also 
+so the address and value are immutable in int
 '''
 #LIST (mutable)
 a= [1,2,3,4]
@@ -134,7 +141,17 @@ id(a)
 126344921958544
 id(b)
 126344921958736
-
+# string
+#in the below id will not be same
+a= "hello world"
+b= "hello world"
+id(a)
+id(b)
+#in the below id will be same
+a= "hello_world"
+b= "hello_world"
+id(a)
+id(b)
 
 """
 Data Types: 
@@ -146,5 +163,28 @@ Strings("anything inside the double coutes are string")
 #' this is also string with single coutes'
       """ this is multiline string""" 
 #if we assinged this multi line comments to an variable it will not considered as comment
-  """
+
+DATE: 07-04-2025
+Indexing
+b= "hello world"
+b[3] -> l
+n[-2] -> l
+ 0  1  2 3 4 5 6 7 8 9 10
+ h  e  l l o   w o r l d
+-11 10 9 8 7 6 5 4 3 2 1
+
+
+it will be "l" it can callout the index value of the string
+it can be done forward and backword also
+indexing principles are same across all the data type that uses index
+
+name= "batman"
+msg = f"bruce wyane is {name}"
+msg
+It will print "bruce wyane is batman" that f is formating and it will be avaiblae in only python 3.6 are above
+ 
+"""
+
+    
+
    
