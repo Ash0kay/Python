@@ -1,6 +1,18 @@
 #Learn python from sratch
 
 """
+Topics
+1. Primitive Datatypes & Operators
+2. Variables & Collections
+3. Control Flow & Iterables
+4. Functinos
+5. Modules
+6. Class(oops)Inheritance
+7. Some adance stuffs
+"""
+ 
+"""
+1. Primitive Datatypes & Operators
 Python is a interpereter high level language
 - unlike other programming language python used to compile and run each line one by one Python’s syntax is clean and easy to understand, which makes it ideal for beginners 
 and experienced developers alike.
@@ -57,8 +69,8 @@ print(c)
 
 """ 
 All the premitie operations will be calculated from the order of BODMAS
-B – Brackets: Perform calculations inside brackets first (including parentheses (), square brackets [], and curly braces {}).
-O – Orders: Refers to powers (exponents) and roots (like square roots).
+B – Brackets/functions: Perform calculations inside brackets first (including parentheses (), square brackets [], and curly braces {}).
+O – Orders/exponent: Refers to powers (exponents) and roots (like square roots).
 D – Division: Perform division next, from left to right.
 M – Multiplication: Perform multiplication next, from left to right.
 A – Addition: Perform addition after multiplication and division, from left to right.
@@ -154,7 +166,7 @@ id(a)
 id(b)
 
 """
-Data Types: (1-4 core or premitive data types, 5-8 are collections)
+Data Types: (1-4 core or premitive data types, 5-8 are collections) All are OOPS(object oriented programming languages)
 1. Integer(1,2,3,5,19)
 2. Float(1.0,0.12,2.15)
 3. Boolean(True, False)
@@ -163,6 +175,14 @@ Data Types: (1-4 core or premitive data types, 5-8 are collections)
 6. Tuple
 7.Dictonary
 8. Set
+
+NOTES: 
+Looking at OOPS
+What is OOPS? 
+
+Object ->
+      Members(variables/objects/properties)
+      Methods(functions)
 
 
 Strings("anything inside the double coutes are string")
@@ -199,7 +219,47 @@ string concadination
  c= a+b
  
 """
+"""
+DATE: 09-04-2025
 
-    
+How do find a functions in python
+What is functions?
+Functions is all about substituion
 
-   
+
+Print("hello world")
+Anotony of a FN call
+Funciton:name(""argument: string")
+__________________________________________________________________________________________________________________
+2. Variables and Collections
+__________________________________________________________________________________________________________________
+
+Variables: It is a container for storing values
+Python will automatically determine the datatype
+i= 5
+i= "string"
+
+#TIP: Decdocs.io  will help to learn python like a cheat code.
+#try to refer with developer documentation for the rest of these modules so you can understand how the python or any other language works
+
+CODE:
+>>> s = 10 + 2
+>>> s
+12
+>>> s = input("say your name? ")
+say your name? test
+>>> s
+'test'
+>>>
+
+Collections: 
+
+1. Lists
+2. Tuples
+3. Dictionary
+4. Set
+
+
+
+
+
