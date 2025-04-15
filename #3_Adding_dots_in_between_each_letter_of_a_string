@@ -1,0 +1,11 @@
+#This program is created on date of 15/04/2025
+#This is program to add "." in between each letter
+a = input("give me your word to be printed with \".\" in between each letter: ")
+result =""
+for i in range (len(a)):
+    result +=a[i]
+    if i!= len(a) -1:
+        result += "."
+#        print(result) # if you want to print each word everytime it adds a dot
+print(result)
+
